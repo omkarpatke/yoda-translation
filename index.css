@@ -1,0 +1,65 @@
+:root {
+    --main-color:rgb(25, 148, 230);
+}
+#output{
+    border: 2px solid ;
+    height: 15vh;
+    width: 70%;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: var(--main-color);
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+footer{
+    height: 10vh;
+    background-color:var(--main-color);
+    width: 100%;
+    margin-top: 2rem;
+}
+#txt-input{
+    height: 15vh;
+    width: 70%;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    background-color:rgb(223, 221, 221) ;
+    border: 2px solid black;
+}
+.btn{
+    border-radius: 8px;
+    margin: 2rem;
+    font-size: 1.2rem;
+   
+    border: 1px solid;
+}
+.btn:hover{
+    background-color: rgb(221, 218, 218);
+    border: 2px black solid;
+    border-radius: 8px;
+}
+.text{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.container{
+    margin: 3rem;
+    height:39rem;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 28rem;
+    box-shadow: 1px 2px 3px ;
+    background-color: rgb(223, 221, 221);;
+}
+body{
+   background-color: aliceblue;
+}
