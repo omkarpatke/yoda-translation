@@ -78,3 +78,24 @@ p{
     font-size: 1.1rem;
 }
 
+@media(max-width:1000px) {
+    body{
+        padding:0.5rem;
+        margin: 0;
+
+    }
+    .container{
+        width: 85%;
+    }
+    textarea , #output{
+        width: 90%;
+    }
+    button{
+        width: 50%;
+    }
+    h1{
+        width: 100%;
+    }
+
+}
+
