@@ -1,69 +1,46 @@
-:root {
-    --main-color:rgb(65, 87, 102);
-}
-body{
-    background-color: antiquewhite;
-}
-#output{
-    border: 2px solid ;
-    height: 15vh;
-    width: 70%;
-    padding-left: 3rem;
-    padding-top: 2rem;
-    border-radius: 2rem;
-    background-color: white;
-}
-.header{
-    height: 10vh;
-    width: 100%;
-    
-    margin-top: 0rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-    
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-#txt-input{
-    height: 15vh;
-    width: 70%;
-    padding-left: 3rem;
-    padding-top: 2rem;
-    background-color:white ;
-    border: 2px solid black;
-    border-radius: 2rem;
-}
-.btn{
-   height: 5vh;
-   margin-top: 1rem;
-   width: 7rem;
-   font-size: 1.2rem;
-   border-radius: 1.2rem;
-   background-color: var(--main-color);
-   color: white;
-}
-.btn:hover{
-    background-color: white;
-    color: var(--main-color);
-    border: 1px solid var(--main-color);
-}
-.text{
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-.container{
-    margin: 3rem;
-    height:39rem;
-    width: 37vw;
+body{
+     /* background-color: #e0e0e0; */
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-left: 28rem;
-    box-shadow: 1px 2px 3px ;
-    background-color: rgb(106, 238, 231);
-    border-radius: 5px;
-    
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 25px #e5e7eb;
+    padding: 3rem;
+    border-radius: 1.5rem;
+}
+h1{
+    color: rgb(55, 139, 55);
+}
+textarea , #output{
+    height:17vh;
+    width: 32vw;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding-top:2rem;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+}
+button{
+    height: 5vh;
+    width: 12vw;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem ;
+    background-color:rgb(55, 139, 55) ;
+    color: white;
+}
+.text{
+    margin-bottom: 1.2rem;
+}
+
