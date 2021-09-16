@@ -23,7 +23,7 @@ h1{
 textarea , #output{
     height:17vh;
     width: 32vw;
-    border: 1px solid black;
+    border: 2px solid ;
     border-radius: 1rem;
     padding-top:2rem;
     padding-left: 2rem;
